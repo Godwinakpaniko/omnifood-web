@@ -1,0 +1,251 @@
+/* Devices slightly larger than our row div */
+
+@media only screen and (max-width:1500px) {
+    h1 {margin-top: 35px;}
+}
+@media only screen and (max-width:1200px) {
+    .row {
+        padding: 0 2%;
+    }
+    .header-textbox {
+        padding: 0 2%;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    
+    body {
+        font-size: 18px;
+    }
+    .row {
+        padding-left: 3%;
+    }
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .logo {
+        height: 90px;
+        margin-top: 12px;
+        padding-left: 1%;
+    }
+    h1 {
+        font-size: 200%;
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 180%;
+        font-weight: 300;
+    }
+    .box h3 {
+        font-size: 110%;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+    .big {
+        font-size: 250%;
+    }
+    .pgraph {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .img-class {
+        width: 50%;
+    }
+    .box1of2:first-child {
+        padding-right: 2%;
+        margin-top: 20px;
+    }
+    .box1of2:last-child {
+        padding-left: 2%;
+        margin-top: 40px;
+    }
+    .sub-col {
+        margin-bottom: 30px;
+    }
+    .sub-col:nth-child(3) {
+        margin-bottom: 50px;
+    }
+    .numbers {
+    height: 50px;
+    width: 50px;
+    font-size: 120%;
+    padding-top: 7px;
+    }
+    .downloadicons img {
+        height: 45px;
+        margin-right: 10px;
+    }
+    .city-features {
+        font-size: 90%;
+        width: 100%;
+        text-align: left;
+    
+    }
+    .small-icon {
+        width: 20px;
+        font-size: 100%;
+        margin-right: 0;
+        
+    }
+    .box1of2 div:last-of-type{
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+   
+    }
+    footer {
+        padding: 30px 0;
+        font-size: 70%;
+    }
+    footer .row:last-child {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 15px;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .row{width: 100%;}
+    .col {width: 100%;}
+    .right-nav {display:none;}
+    h1 {font-size: 180%}
+    h2 {font-size: 150%}
+    h3 {font-size: 110%}
+    .pgraph {
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    .box {
+        width: 100%;
+        text-align: center;
+        
+        padding: 5% 0;
+    }
+
+    .box p {
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .rowtest div {
+        float: left;
+    }
+    h2:after {
+        margin-top: 20px;
+        width: 70px;
+    }
+    .box h3 {
+        font-size: 110%;
+        font-weight: 300;
+    }
+    .box p {
+        font-size: 90%;
+        line-height: 120%;
+    }
+    .downloadicons img {
+        height: 50px;
+        width: auto;
+        margin-right: 10px;
+        
+    }
+    .box img {
+        height: auto;
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    .sub-coll {
+        
+        border-radius: 3px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    label {
+        padding-left: 2.5%;
+        font-size: 110%;
+        font-weight: 400;
+    }
+    input[type=submit] {
+        padding: 10px 30px;
+        margin-top: 5px;
+        
+    }
+    /* Footer Area */
+
+    footer {
+        padding: 20px 0;
+        font-size:90%;
+        width: 100%;
+        text-align: center;
+    }
+    footer i {
+        float: none;
+        margin-right: 0.5%;
+        margin-top: 5px;
+
+    }
+  
+    .big-icons {
+        font-size: 20px;
+    }
+    footer a {
+        margin-right: 20px;
+    }
+    
+    .city-features {
+        margin-bottom: 5px;
+        padding-left: 20%;
+        width: 60%;
+    
+    }
+    .downloadicons {
+        text-align: center;
+    }
+    
+    .img-class {
+        width: 40%;
+    }
+    .box1of2:first-child {
+        text-align: center;
+        padding-right: 2%;
+        margin-top: 20px;
+    }
+    .box1of2:last-child {
+        padding-left: 2%;
+        margin-top: 20px;
+    }
+    .numbers {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 120%;
+        padding-top: 4px;
+        margin-right: 15px; 
+    } 
+    .copy:before {
+        height: 1px;
+        background-color: rgb(61, 61, 61);
+        width: 100%;
+        display: block;
+        content: " ";
+        margin-bottom: 10px;
+    }    
+    .box1of2 div:last-of-type{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+
+}
